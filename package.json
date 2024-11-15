@@ -1,0 +1,23 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "This is a online book store",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "author": "Bharat Shubham",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.0",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
